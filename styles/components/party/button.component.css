@@ -1,0 +1,5 @@
+.party-page {
+    .button {
+        @apply transition-opacity duration-[1s] ease-in-out;
+    }
+}

@@ -1,0 +1,7 @@
+.loading-page {
+    @apply h-screen overflow-hidden grid place-items-center;
+
+    .content {
+        @apply flex flex-col items-center justify-center gap-6;
+    }
+}

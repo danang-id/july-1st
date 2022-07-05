@@ -1,0 +1,11 @@
+.layout {
+    @apply flex flex-col min-h-screen min-w-full;
+
+    .layout-container {
+        @apply min-h-fit;
+    }
+}
+
+.layout-theme {
+    @apply font-handwriting transition-[background-color] ease-in-out duration-[4s];
+}

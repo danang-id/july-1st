@@ -1,0 +1,60 @@
+.party-page {
+    @apply h-screen overflow-hidden flex flex-col;
+
+    .banner {
+        @apply fixed top-10 left-0 right-0 z-20 flex justify-between items-start;
+
+        .image {
+            @apply h-20 sm:h-24 md:h-28 lg:h-32 transition-opacity duration-[1s] ease-in-out;
+        }
+    }
+
+    .content {
+        @apply h-[calc(100vh-7rem)] z-0 pt-32 md:pt-28 lg:pt-16
+        flex flex-col justify-between items-center;
+
+        .happy-birthday {
+            @apply flex justify-center items-center;
+
+            .image {
+                @apply px-12 transition-opacity duration-[2.5s] ease-in-out;
+            }
+        }
+
+        .message-for-you {
+            @apply h-16 flex flex-col justify-center items-center px-6;
+
+            .message {
+                @apply transition-opacity duration-[1s] ease-in-out text-center text-2xl;
+            }
+        }
+    }
+
+    .present-box {
+        @apply fixed bottom-0 left-0 right-0 z-20 flex justify-between items-end;
+
+        .left-image {
+            @apply h-20 sm:h-24 md:h-28 lg:h-32;
+        }
+
+        .right-image {
+            @apply h-24 sm:h-28 md:h-32 lg:h-36;
+        }
+    }
+
+    .cake {
+        @apply fixed bottom-0 left-0 right-0 z-20 flex justify-center items-start;
+
+        .image-container {
+            @apply transition-opacity duration-[2s] ease-in-out;
+
+            .image {
+                @apply h-[11rem] sm:h-[11.5rem] md:h-[12rem];
+            }
+        }
+    }
+
+    .click-to-action {
+        @apply h-[7rem] fixed bottom-0 left-0 right-0 z-50 flex justify-center items-center;
+    }
+}

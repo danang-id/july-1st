@@ -1,0 +1,63 @@
+{
+	"name": "july-1st",
+	"version": "23.0.0",
+	"private": true,
+	"author": {
+		"name": "Danang Galuh Tegar Prasetyo",
+		"email": "connect@danang.id",
+		"url": "https://danang.id"
+	},
+	"bugs": {
+		"url": "https://github.com/danang-id/july-1st/issues"
+	},
+	"description": "The 1st of July Celebration",
+	"homepage": "https://july-1st.danang.id",
+	"license": "BSD-3-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danang-id/july-1st.git"
+	},
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"packageManager": "yarn@3.2.1",
+	"dependencies": {
+		"@js-temporal/polyfill": "^0.4.1",
+		"axios": "^0.27.2",
+		"classnames": "^2.3.1",
+		"daisyui": "^2.18.0",
+		"iron-session": "^6.1.3",
+		"next": "^12.2.0",
+		"pino": "^8.1.0",
+		"pino-pretty": "^8.1.0",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"semver": "^7.3.7",
+		"sweetalert2": "^11.4.19",
+		"sweetalert2-react-content": "^5.0.1",
+		"swr": "^1.3.0",
+		"ua-parser-js": "^1.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^18.0.1",
+		"@types/react": "^18.0.14",
+		"@types/react-dom": "^18.0.5",
+		"@types/semver": "^7.3.10",
+		"@types/tailwindcss": "^3.0.11",
+		"@types/ua-parser-js": "^0.7.36",
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.19.0",
+		"eslint-config-next": "^12.2.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"postcss": "^8.4.14",
+		"postcss-import": "^14.1.0",
+		"prettier": "^2.7.1",
+		"tailwindcss": "^3.1.4",
+		"typescript": "^4.7.4"
+	}
+}

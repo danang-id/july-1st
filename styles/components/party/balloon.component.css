@@ -1,0 +1,93 @@
+.party-page {
+    --balloon-down-shift: 41px;
+
+    .balloon {
+        @apply fixed transition-[top_left] ease-in-out
+        h-[120px] sm:h-[140px] md:h-[160px] lg:h-[180px]
+        w-[66px] sm:w-[76px] md:w-[88px] lg:w-[98px];
+
+        .character {
+            @apply absolute top-2 sm:top-3 md:top-4 lg:top-5 z-30 w-full
+            uppercase text-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px]
+            transition-opacity duration-[3s] ease-in-out;
+        }
+
+        .image {
+            @apply opacity-60;
+        }
+    }
+
+    .balloon.show-character {
+        @apply top-[47.5%] md:top-[40%];
+    }
+
+    .balloon-1 {
+        .animated-image {
+            @apply animate-balloon-rotate-1;
+        }
+    }
+
+    .balloon-1.show-character {
+        @apply left-[calc(12.5%-41px)]
+    }
+
+    .balloon-2 {
+        .animated-image {
+            @apply animate-balloon-rotate-2;
+        }
+    }
+
+    .balloon-2.show-character {
+        @apply left-[calc(25%-41px)]
+    }
+
+    .balloon-3 {
+        .animated-image {
+            @apply animate-balloon-rotate-2;
+        }
+    }
+
+    .balloon-3.show-character {
+        @apply left-[calc(37.5%-41px)]
+    }
+
+    .balloon-4 {
+        .animated-image {
+            @apply animate-balloon-rotate-1;
+        }
+    }
+
+    .balloon-4.show-character {
+        @apply left-[calc(50%-41px)]
+    }
+
+    .balloon-5 {
+        .animated-image {
+            @apply animate-balloon-rotate-1;
+        }
+    }
+
+    .balloon-5.show-character {
+        @apply left-[calc(62.5%-41px)]
+    }
+
+    .balloon-6 {
+        .animated-image {
+            @apply animate-balloon-rotate-2;
+        }
+    }
+
+    .balloon-6.show-character {
+        @apply left-[calc(75%-41px)]
+    }
+
+    .balloon-7 {
+        .animated-image {
+            @apply animate-balloon-rotate-1;
+        }
+    }
+
+    .balloon-7.show-character {
+        @apply left-[calc(87.5%-41px)]
+    }
+}

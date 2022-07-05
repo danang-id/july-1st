@@ -1,0 +1,15 @@
+.meet-the-guard-page {
+    @apply h-screen overflow-hidden flex flex-col justify-center items-center gap-8 p-12 font-sans;
+
+    .lock-animation {
+        @apply w-14 mb-4;
+    }
+
+    .information-text {
+        @apply flex flex-col justify-center items-center text-center;
+    }
+
+    .passcode-input {
+        @apply w-full ui-input ui-input-bordered ui-input-primary font-sans text-center tracking-widest;
+    }
+}

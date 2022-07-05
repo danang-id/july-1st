@@ -1,0 +1,17 @@
+.party-page {
+    .bulbs {
+        @apply h-14 fixed top-0 left-0 right-0 z-40 flex justify-around items-start;
+
+        .bulb {
+            @apply w-12 transition-opacity duration-[3s] ease-in-out;
+        }
+
+        .red-bulb {
+            @apply hidden sm:block;
+        }
+
+        .yellow-bulb {
+            @apply hidden md:block;
+        }
+    }
+}

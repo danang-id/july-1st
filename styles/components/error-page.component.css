@@ -1,0 +1,22 @@
+.error-page {
+    @apply grow flex flex-col justify-center items-center;
+
+    .content {
+        @apply flex flex-col gap-1.5 w-full text-center px-4 md:px-8 lg:px-16;
+
+        .title {
+            @apply font-bold text-3xl my-2 text-secondary;
+        }
+
+        .description {
+        }
+    }
+
+    .click-to-action {
+        @apply flex justify-center items-center mt-16;
+
+        .back-button {
+            @apply ui-btn ui-btn-primary font-sans;
+        }
+    }
+}
